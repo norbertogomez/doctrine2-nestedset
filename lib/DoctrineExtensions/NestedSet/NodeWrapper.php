@@ -439,7 +439,7 @@ class NodeWrapper implements Node
             return implode(array_slice($this->outlineNumbers, 1), $separator);
         }
 
-        return implode($this->outlineNumbers, $separator);
+        return implode($separator, $this->outlineNumbers);
     }
 
 
